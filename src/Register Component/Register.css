@@ -1,0 +1,173 @@
+body{
+    align-items: center;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    color: white;
+    border-bottom-color: #333;
+    box-shadow:1px 2px #333;
+}
+.logo{
+    margin-left: 15px;
+    display: flex;
+}
+.logo h1{
+    font-size: xx-large;
+    background-image: url('https://st.depositphotos.com/1033604/2008/i/450/depositphotos_20087015-stock-photo-sunlit-young-corn-plants.jpg');
+    margin-left: 15px;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+   margin-top: -2px;
+    mix-blend-mode: multiply;
+}
+.login{
+    margin-top: 25px;
+    margin-left: auto;
+}
+.login-button{
+    color: white;
+    background: #333;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    border-color: white;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login-button:hover{
+    color: #333;
+    background: white;
+}
+.footer{
+    background: #333;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50px; 
+}
+.footer p{
+   text-align: center;
+}
+.login-Container{
+    background: rgb(249, 248, 248);
+    margin-top: 200px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+    margin-top: 150px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px;
+    background: linear-gradient(white);
+    margin-bottom: 100px;
+    gap: 30px;
+    }
+.errmsg{
+    color: red;
+}
+.reg-header{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: black;
+    margin-left: 50px;
+}
+.login-header{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: black;
+   
+}
+.input-fields1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.input-fields1 label{
+    font-size: x-large;
+    font-weight: 700;  
+}
+.input-fields1 input{
+    height: 30px;
+    width: 200px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: large;
+}
+.submit-container button{
+    color: white;
+    background: #333;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    border-color: white;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+}
+.reg-container button{
+    color: white;
+    background: #333;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    border-color: white;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 43%;
+    margin-top: 30px;
+}
+.submit-container button:hover{
+    background: white;
+    color: #333;
+}
+.reg-container button:hover{
+    background: white;
+    color: #333;
+}
+.forgot-password{
+    font-size: large;
+}
+.reg-password{
+    font-size: large;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.input-fields2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.input-fields2 label{
+    font-size: x-large;
+    font-weight: 700;
+}
+.input-fields2 input{
+    height: 30px;
+    width: 200px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: large;
+}
+.newuser button{
+    height: 30px;
+    width: 20px;
+}
